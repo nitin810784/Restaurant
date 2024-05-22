@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+:active,
+:hover,
+:focus {
+    outline-offset: none !important;
+    outline: none !important;
+}
+a:hover {
+    color: brown !important;
+}
+ul {
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background-color: brown;
+}
+
+
+
+.main-btn {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.main-btn:hover {
+    background-color: transparent;
+    box-shadow: 0px 1px 2px brown;
+    color: brown;
+    transition: 0.3s;
+}
+.white-btn {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: brown;
+    font-weight: 700;
+    box-shadow: 0px 1px 2px brown;
+    transition: 0.3s;
+}
+.white-btn:hover {
+    background-color: brown;
+    color: white;
+    transition: 0.3s;
+}
+.section {
+    padding: 5rem 0;
+}
+
+.section .heading {
+    text-align: center;
+}
+.section .heading h4 {
+    margin: 1rem 0;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* header design  */
+.navigation {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    transition: 0.4s ease-in-out;
+    padding: 0;
+}
+.navbar-brand img {
+    width: 150px;
+}
+.navigation .nav-item {
+    padding: 0 .4rem;
+}
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.show {
+    background-color: #fff;
+    width: 100%;
+}
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    /* color: brown; */
+}
+.nav-link.active {
+    color: brown !important;
+}
+.nav-link:hover {
+    color: brown !important;
+}
+.navigation.scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0.25rem 1.7rem 0 rgba(0, 0, 0, 0.09);
+    transition: 0.5s ease-in-out 0s;
+}
+
+
+
+
+
+
+
+.top-banner {
+    width: 100%;
+    background-image: url(images/bg/bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 11rem 0;
+}
+.section-content h1 {
+    font-weight: 800;
+}
+.section-content p {
+    margin: 3rem 0 1rem 0;
+}
+
+
+
+.counter-section {
+    background-color: brown;
+    padding: 2.5rem 0;
+}
+.counter-section p {
+    color: white;
+    text-transform: uppercase;
+}
+.counter-section h2 {
+    color: #fff;
+}
+
+
+.section-content .main-btn {
+    /* padding: ; */
+}
+
+
+
+
+.ads-banner {
+    background-image: url(images/bg/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ads-banner .section-content h3 {
+    color: #EC0868;
+}
+
+
+h6{
+    color: #EC0868;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+
+#testimonial {
+    background-color: brown;
+}
+
+#testimonial .item {
+    background-color: #fff;
+}
+
+
+/* .carousel-inner {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+} */
+.carousel-item  {
+    padding: 10rem;
+    object-fit: cover;
+}
+.carousel-caption {
+    background-color: #fff;
+    padding: 2rem;
+}
+.carousel-caption p {
+    /* color: black; */
+}
+.carousel-caption  img {
+    border-radius: 50%;
+    width: 90px;
+    margin: auto;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: -10%;
+    
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+#banner2 {
+    background-image: url(images/bg/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem; 
+}
+
+
+
+
+
+footer {
+    background-color: brown;
+}
+/* footer ul.icon a{
+    color: #fff;
+} */
+footer ul.nav a {
+    color: #fff;
+}
+footer ul.nav a:hover {
+    color: yellow !important;
+}
+footer ul.icon a {
+    font-size: 1.7rem;
+}
+footer.section {
+    padding: 1.6rem;
+}
